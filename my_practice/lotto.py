@@ -1,3 +1,5 @@
+# flask를 활용한 간단한 로또 번호 생성 프로그램 구현
+
 from flask import Flask, render_template
 from flask import request
 import random
