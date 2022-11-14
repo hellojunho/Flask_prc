@@ -1,3 +1,5 @@
+# flask를 활용한 간단한 계산기 구현
+
 from flask import Flask, render_template
 from flask import request
 import random
