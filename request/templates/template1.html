@@ -1,0 +1,16 @@
+<html>
+  <head>
+  .....
+  </head>
+  <body>
+    <p>This is html: {{data}}</p>
+
+    <script type="text/javascript" src="{{url_for('static', filename='js/add.js') }}"></script>
+    <script type="text/javascript">
+    myvar = '{{data}}';
+    document.write(myvar);
+
+    </script>
+  </body>
+
+</html>
