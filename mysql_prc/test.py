@@ -1,3 +1,4 @@
+# api를 받아 test.json 파일 생성
 import requests
 import json
 import xmltodict
@@ -50,6 +51,7 @@ for x in range (0,72):
     del jsonBody2[x]["PERMISN_SICKBD_CNT"]
     del jsonBody2[x]["REFINE_ZIP_CD"]
     del jsonBody2[x]["BIZCOND_DIV_NM_INFO"]
+    del jsonBody2[x]["REFINE_LOTNO_ADDR"]
 
 #print(jsonBody2)
 print(type(jsonBody2))
