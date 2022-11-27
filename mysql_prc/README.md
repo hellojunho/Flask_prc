@@ -1,5 +1,17 @@
 # Flask와 Mysql 연동하는 폴더
 
+## csv, json데이터를 Mysql에 Import하기
+`Mysql`을 실행시키고, 원하는 데이터베이스로 들어간다.  
+다음에는 해당 스키마에서 마우스 우클릭을 하면 `Table Data Import Wizard`가 있는데, 이 버튼을 클릭한다.    
+![image](https://user-images.githubusercontent.com/104587537/204124480-9ff5b235-cec7-4fa7-bca5-2e711283d431.png)  
+그 다음에 내가 mysql에 넣고싶은 json 혹은 csv 파일의 경로를 입력하고 NEXT를 누른다.  
+![image](https://user-images.githubusercontent.com/104587537/204124502-21b49959-84bd-4ab4-8544-a9fe2efaeb0a.png)  
+그리고 새로운 테이블을 생성하여 파일을 삽입할 것인지, 기존에 내가 만든 테이블에 삽입할 것인지 정한다.  
+![image](https://user-images.githubusercontent.com/104587537/204124562-43868b38-851d-4674-bb46-364b6454a5f6.png)    
+이 다음에는 내가 삽입하려는 파일의 칼럼들의 자료형을 확인하고 완료하면 정상적으로 mysql에 들어갈 것이다.  
+
+---
+
 ## vsCode와 Mysql 연동
 vsCode에는 `마켓플레이스` 배너가 있다.   
 ![image](https://user-images.githubusercontent.com/104587537/204124168-9c6d082a-55ef-4105-a2ca-34359411eb40.png) <-- 이렇게 생겼다.  
