@@ -20,7 +20,7 @@ db = pymysql.connect(
 
 curs = db.cursor()
  
-sql = "select * from test2;"
+sql = "select * from test;"
 curs.execute(sql)
 
 rows = curs.fetchall()
